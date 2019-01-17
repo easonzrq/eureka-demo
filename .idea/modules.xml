@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Eureka-demo.iml" filepath="$PROJECT_DIR$/.idea/Eureka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstcustomer/first-customer.iml" filepath="$PROJECT_DIR$/firstcustomer/first-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firsteureka/first-eureka.iml" filepath="$PROJECT_DIR$/firsteureka/first-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstprovider/first-provider.iml" filepath="$PROJECT_DIR$/firstprovider/first-provider.iml" />
+    </modules>
+  </component>
+</project>
