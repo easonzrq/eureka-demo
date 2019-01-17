@@ -19,6 +19,6 @@ public class TestController {
     @GetMapping("/router")
     public String router(){
         RestTemplate restTemplate=getRestTemplate();
-       return  restTemplate.getForObject("http://PROVIDER/hello",String.class);
+       return  restTemplate.getForObject("http://CLOUD-PROVIDER/hello/person",String.class);
     }
 }

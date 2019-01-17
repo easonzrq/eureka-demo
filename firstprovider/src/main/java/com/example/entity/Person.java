@@ -4,6 +4,8 @@ public class Person {
     private Integer id;
     private String name;
     private Integer age;
+    //查看那个实例提供的信息
+    private String message;
 
     public Integer getId() {
         return id;
@@ -27,5 +29,13 @@ public class Person {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
