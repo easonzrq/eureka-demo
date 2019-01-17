@@ -1,9 +1,18 @@
 server:
   port: 8090
 eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 5         #心跳监测
+    lease-expiration-duration-in-seconds: 10     #续约请求时间
+    metadata-map:
+      author: zrq
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 spring:
   application:
     name: provider
+logging:
+  level:
+    com:
+      netflix: debug
