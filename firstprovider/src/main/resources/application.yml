@@ -12,7 +12,14 @@ eureka:
 spring:
   application:
     name: provider
-logging:
-  level:
-    com:
-      netflix: debug
+#logging:
+#  level:
+#    com:
+#      netflix: debug
+#spring2.0以后使用这个启动所有的端点，默认地址需要加上/actuator
+#以前使用endpoints:sensitive
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
